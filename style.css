@@ -1,0 +1,120 @@
+body {
+  background: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 600px;
+  text-align: center;
+  margin: 40px auto;
+}
+h1 {
+  text-align: center;
+  /*ketebalan font*/
+  font-weight: 300;
+}
+h3 {
+  color: #1cb7b0;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#frame {
+  width: 300px;
+  margin: 0px auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-group input {
+  width: 100%;
+  font-size: 1em;
+  color: grey;
+  padding: 10px 10px;
+  background: transparent;
+  border-radius: 1px solid gray;
+  z-index: 9;
+  box-sizing: border-box;
+  display: block;
+}
+.form-group label {
+  position: absolute;
+  top: -2px;
+  padding: 11px 10px;
+  transition: all 200ms;
+  opacity: 0.5;
+  font-size: 1em;
+  z-index: -1;
+}
+.tulisan_login {
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 350px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: #46de4b;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.tombol_registrasi {
+  background: blue;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+.form-group input:focus + label,
+.form-group input:valid + label {
+  top: 7px !important;
+  left: 5px;
+  font-size: 0.8em;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  padding: 0px 10px;
+  background: #f9f9f9;
+  z-index: 1;
+}
